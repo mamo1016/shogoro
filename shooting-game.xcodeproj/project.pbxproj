@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1144843E1B4C971088ED3798 /* Pods_shooting_gameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85006DE955CC663747D0F131 /* Pods_shooting_gameUITests.framework */; };
+		998C6458865D3EDD1E2AE3DC /* Pods_shooting_game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFE7549F7AF8B7F7AA6B622 /* Pods_shooting_game.framework */; };
 		B4A726C0214C1B6F00EB8258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A726BF214C1B6F00EB8258 /* AppDelegate.swift */; };
 		B4A726C2214C1B6F00EB8258 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4A726C1214C1B6F00EB8258 /* GameScene.sks */; };
 		B4A726C4214C1B6F00EB8258 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4A726C3214C1B6F00EB8258 /* Actions.sks */; };
@@ -17,6 +19,8 @@
 		B4A726D0214C1B7000EB8258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A726CE214C1B7000EB8258 /* LaunchScreen.storyboard */; };
 		B4A726DB214C1B7000EB8258 /* shooting_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A726DA214C1B7000EB8258 /* shooting_gameTests.swift */; };
 		B4A726E6214C1B7000EB8258 /* shooting_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A726E5214C1B7000EB8258 /* shooting_gameUITests.swift */; };
+		B4A726F4214C218700EB8258 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4A726F3214C218700EB8258 /* Explosion.sks */; };
+		B9C41F16A3354980A9987B82 /* Pods_shooting_gameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC90EEA9FE1F4261B0C534 /* Pods_shooting_gameTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		187708F582A60E5FBEC5FD39 /* Pods-shooting-game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shooting-game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shooting-game/Pods-shooting-game.debug.xcconfig"; sourceTree = "<group>"; };
+		1DBE95BEEBED3F7D1E828AAD /* Pods-shooting-gameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shooting-gameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-shooting-gameUITests/Pods-shooting-gameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		341F55B89134864C3F237ACF /* Pods-shooting-gameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shooting-gameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shooting-gameUITests/Pods-shooting-gameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AFE7549F7AF8B7F7AA6B622 /* Pods_shooting_game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shooting_game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85006DE955CC663747D0F131 /* Pods_shooting_gameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shooting_gameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0F69AC2C70006EF646E62C /* Pods-shooting-game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shooting-game.release.xcconfig"; path = "Pods/Target Support Files/Pods-shooting-game/Pods-shooting-game.release.xcconfig"; sourceTree = "<group>"; };
+		93308B8CEAC48A2BED4ECFFF /* Pods-shooting-gameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shooting-gameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shooting-gameTests/Pods-shooting-gameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4A726BC214C1B6F00EB8258 /* shooting-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shooting-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A726BF214C1B6F00EB8258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A726C1214C1B6F00EB8258 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +64,9 @@
 		B4A726E1214C1B7000EB8258 /* shooting-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shooting-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A726E5214C1B7000EB8258 /* shooting_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shooting_gameUITests.swift; sourceTree = "<group>"; };
 		B4A726E7214C1B7000EB8258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A726F3214C218700EB8258 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		C4AC90EEA9FE1F4261B0C534 /* Pods_shooting_gameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shooting_gameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E331C9F62B99214429E558C2 /* Pods-shooting-gameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shooting-gameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-shooting-gameTests/Pods-shooting-gameTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998C6458865D3EDD1E2AE3DC /* Pods_shooting_game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9C41F16A3354980A9987B82 /* Pods_shooting_gameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1144843E1B4C971088ED3798 /* Pods_shooting_gameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		556BFCFE75C1C1D31CDEF9D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				187708F582A60E5FBEC5FD39 /* Pods-shooting-game.debug.xcconfig */,
+				8B0F69AC2C70006EF646E62C /* Pods-shooting-game.release.xcconfig */,
+				93308B8CEAC48A2BED4ECFFF /* Pods-shooting-gameTests.debug.xcconfig */,
+				E331C9F62B99214429E558C2 /* Pods-shooting-gameTests.release.xcconfig */,
+				341F55B89134864C3F237ACF /* Pods-shooting-gameUITests.debug.xcconfig */,
+				1DBE95BEEBED3F7D1E828AAD /* Pods-shooting-gameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B4A726B3214C1B6F00EB8258 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +117,8 @@
 				B4A726D9214C1B7000EB8258 /* shooting-gameTests */,
 				B4A726E4214C1B7000EB8258 /* shooting-gameUITests */,
 				B4A726BD214C1B6F00EB8258 /* Products */,
+				556BFCFE75C1C1D31CDEF9D8 /* Pods */,
+				F243FFB11B3C99490C0EB6C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +139,7 @@
 				B4A726C1214C1B6F00EB8258 /* GameScene.sks */,
 				B4A726C3214C1B6F00EB8258 /* Actions.sks */,
 				B4A726C5214C1B6F00EB8258 /* GameScene.swift */,
+				B4A726F3214C218700EB8258 /* Explosion.sks */,
 				B4A726C7214C1B6F00EB8258 /* GameViewController.swift */,
 				B4A726C9214C1B6F00EB8258 /* Main.storyboard */,
 				B4A726CC214C1B7000EB8258 /* Assets.xcassets */,
@@ -134,6 +167,16 @@
 			path = "shooting-gameUITests";
 			sourceTree = "<group>";
 		};
+		F243FFB11B3C99490C0EB6C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE7549F7AF8B7F7AA6B622 /* Pods_shooting_game.framework */,
+				C4AC90EEA9FE1F4261B0C534 /* Pods_shooting_gameTests.framework */,
+				85006DE955CC663747D0F131 /* Pods_shooting_gameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4A726EA214C1B7000EB8258 /* Build configuration list for PBXNativeTarget "shooting-game" */;
 			buildPhases = (
+				670EA8EA624878C4A8D558BF /* [CP] Check Pods Manifest.lock */,
 				B4A726B8214C1B6F00EB8258 /* Sources */,
 				B4A726B9214C1B6F00EB8258 /* Frameworks */,
 				B4A726BA214C1B6F00EB8258 /* Resources */,
+				4D28211F663C1604A2A42717 /* [CP] Embed Pods Frameworks */,
+				2587FC3FD010D9640DA6D596 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4A726ED214C1B7000EB8258 /* Build configuration list for PBXNativeTarget "shooting-gameTests" */;
 			buildPhases = (
+				DB482B76CCEDF92E1C690AF1 /* [CP] Check Pods Manifest.lock */,
 				B4A726D2214C1B7000EB8258 /* Sources */,
 				B4A726D3214C1B7000EB8258 /* Frameworks */,
 				B4A726D4214C1B7000EB8258 /* Resources */,
@@ -176,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4A726F0214C1B7000EB8258 /* Build configuration list for PBXNativeTarget "shooting-gameUITests" */;
 			buildPhases = (
+				2246BEAB4BB3986B42C29CB6 /* [CP] Check Pods Manifest.lock */,
 				B4A726DD214C1B7000EB8258 /* Sources */,
 				B4A726DE214C1B7000EB8258 /* Frameworks */,
 				B4A726DF214C1B7000EB8258 /* Resources */,
@@ -243,6 +291,7 @@
 				B4A726CD214C1B7000EB8258 /* Assets.xcassets in Resources */,
 				B4A726D0214C1B7000EB8258 /* LaunchScreen.storyboard in Resources */,
 				B4A726C4214C1B6F00EB8258 /* Actions.sks in Resources */,
+				B4A726F4214C218700EB8258 /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +310,103 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2246BEAB4BB3986B42C29CB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shooting-gameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2587FC3FD010D9640DA6D596 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-shooting-game/Pods-shooting-game-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shooting-game/Pods-shooting-game-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D28211F663C1604A2A42717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-shooting-game/Pods-shooting-game-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shooting-game/Pods-shooting-game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		670EA8EA624878C4A8D558BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shooting-game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB482B76CCEDF92E1C690AF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shooting-gameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B4A726B8214C1B6F00EB8258 /* Sources */ = {
@@ -440,9 +586,11 @@
 		};
 		B4A726EB214C1B7000EB8258 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187708F582A60E5FBEC5FD39 /* Pods-shooting-game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YN9N8M6DQ;
 				INFOPLIST_FILE = "shooting-game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,9 +605,11 @@
 		};
 		B4A726EC214C1B7000EB8258 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B0F69AC2C70006EF646E62C /* Pods-shooting-game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YN9N8M6DQ;
 				INFOPLIST_FILE = "shooting-game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,6 +624,7 @@
 		};
 		B4A726EE214C1B7000EB8258 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93308B8CEAC48A2BED4ECFFF /* Pods-shooting-gameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +645,7 @@
 		};
 		B4A726EF214C1B7000EB8258 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E331C9F62B99214429E558C2 /* Pods-shooting-gameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +666,7 @@
 		};
 		B4A726F1214C1B7000EB8258 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341F55B89134864C3F237ACF /* Pods-shooting-gameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +686,7 @@
 		};
 		B4A726F2214C1B7000EB8258 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBE95BEEBED3F7D1E828AAD /* Pods-shooting-gameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
