@@ -15,9 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        UserDefaults.standard.register(defaults: ["bestScore": 0])
+        TWTRTwitter.sharedInstance().start(withConsumerKey: "V2ICLrbXW6gRw6daYJVztnFp6", consumerSecret: "an4sh4UGPCu49W0ACLC0iNDqateETriK3qbp01H9Hh7poAdQ3L")
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        if TWTRTwitter.sharedInstance().application(app, open: url, options: options) {
+            return true
+        }
+        return false
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

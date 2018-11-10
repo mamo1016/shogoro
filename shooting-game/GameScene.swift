@@ -14,6 +14,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var gameVC: GameViewController!
     
+    var Alert: Bool = true
+    
     let motionManager = CMMotionManager()
     var accelaration: CGFloat = 0.0
     
@@ -57,7 +59,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.earth.physicsBody?.collisionBitMask = 0
         addChild(self.earth)
         
-        self.spaceship = SKSpriteNode(imageNamed: "spaceship")
+        self.spaceship = SKSpriteNode(imageNamed: "spaceship0")
         self.spaceship.scale(to: CGSize(width: frame.width / 5, height: frame.width / 5))
         self.spaceship.position = CGPoint(x: 0, y: self.earth.frame.maxY + 50)
         self.spaceship.physicsBody = SKPhysicsBody(circleOfRadius: self.spaceship.frame.width * 0.1)
@@ -111,7 +113,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         if isPaused { return }
-        let missile = SKSpriteNode(imageNamed: "missile")
+        let missile = SKSpriteNode(imageNamed: "missile1")
         missile.position = CGPoint(x: self.spaceship.position.x, y: self.spaceship.position.y + 50)
         missile.physicsBody = SKPhysicsBody(circleOfRadius: missile.frame.height / 2)
         missile.physicsBody?.categoryBitMask = missileCategory
@@ -172,21 +174,25 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             heart.removeFromParent()
             hearts.removeLast()
             if hearts.isEmpty {
+                //
                 gameOver()
             }
         }
     }
     
     func gameOver() {
+
+        
         isPaused = true
         timer?.invalidate()
         let bestScore = UserDefaults.standard.integer(forKey: "bestScore")
         if score > bestScore {
             UserDefaults.standard.set(score, forKey: "bestScore")
         }
-        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false) { _ in
-            self.gameVC.dismiss(animated: true, completion: nil)
-        }
+    
+//        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false) { _ in
+//            self.gameVC.dismiss(animated: true, completion: nil)
+//        }
     }
     
 }

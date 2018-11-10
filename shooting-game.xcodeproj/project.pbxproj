@@ -20,6 +20,7 @@
 		B4A726DB214C1B7000EB8258 /* shooting_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A726DA214C1B7000EB8258 /* shooting_gameTests.swift */; };
 		B4A726E6214C1B7000EB8258 /* shooting_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A726E5214C1B7000EB8258 /* shooting_gameUITests.swift */; };
 		B4A726F4214C218700EB8258 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4A726F3214C218700EB8258 /* Explosion.sks */; };
+		B4F84F78218472A000818E3F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F84F77218472A000818E3F /* StartViewController.swift */; };
 		B9C41F16A3354980A9987B82 /* Pods_shooting_gameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC90EEA9FE1F4261B0C534 /* Pods_shooting_gameTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,8 @@
 		B4A726E5214C1B7000EB8258 /* shooting_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shooting_gameUITests.swift; sourceTree = "<group>"; };
 		B4A726E7214C1B7000EB8258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4A726F3214C218700EB8258 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		B4F84F77218472A000818E3F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		B4F84F7921847A1300818E3F /* shooting-game-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shooting-game-Bridging-Header.h"; sourceTree = "<group>"; };
 		C4AC90EEA9FE1F4261B0C534 /* Pods_shooting_gameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shooting_gameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E331C9F62B99214429E558C2 /* Pods-shooting-gameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shooting-gameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-shooting-gameTests/Pods-shooting-gameTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +148,8 @@
 				B4A726CC214C1B7000EB8258 /* Assets.xcassets */,
 				B4A726CE214C1B7000EB8258 /* LaunchScreen.storyboard */,
 				B4A726D1214C1B7000EB8258 /* Info.plist */,
+				B4F84F77218472A000818E3F /* StartViewController.swift */,
+				B4F84F7921847A1300818E3F /* shooting-game-Bridging-Header.h */,
 			);
 			path = "shooting-game";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 				TargetAttributes = {
 					B4A726BB214C1B6F00EB8258 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					B4A726D5214C1B7000EB8258 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -414,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A726C6214C1B6F00EB8258 /* GameScene.swift in Sources */,
+				B4F84F78218472A000818E3F /* StartViewController.swift in Sources */,
 				B4A726C8214C1B6F00EB8258 /* GameViewController.swift in Sources */,
 				B4A726C0214C1B6F00EB8258 /* AppDelegate.swift in Sources */,
 			);
@@ -589,6 +596,7 @@
 			baseConfigurationReference = 187708F582A60E5FBEC5FD39 /* Pods-shooting-game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YN9N8M6DQ;
 				INFOPLIST_FILE = "shooting-game/Info.plist";
@@ -598,6 +606,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.shooting-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "shooting-game/shooting-game-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -608,6 +618,7 @@
 			baseConfigurationReference = 8B0F69AC2C70006EF646E62C /* Pods-shooting-game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YN9N8M6DQ;
 				INFOPLIST_FILE = "shooting-game/Info.plist";
@@ -617,6 +628,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.shooting-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "shooting-game/shooting-game-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
