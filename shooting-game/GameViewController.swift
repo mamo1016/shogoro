@@ -12,6 +12,8 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    var Alert: Bool = false
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,7 +24,8 @@ class GameViewController: UIViewController {
                 scene.scaleMode = .aspectFill
                 
                  (scene as! GameScene).gameVC = self
-                
+//                print("DebugLog:\((scene as! GameScene).Alert)")
+//                Alert = (scene as! GameScene).Alert
                 // Present the scene
                 view.presentScene(scene)
             }
@@ -33,6 +36,13 @@ class GameViewController: UIViewController {
             view.showsNodeCount = true
         }
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        if let scene = SKScene(fileNamed: "GameScene") {
+//                Alert = (scene as! GameScene).Alert
+            }
+    }
+    
 
     override var shouldAutorotate: Bool {
         return true

@@ -6,15 +6,19 @@
 //  Copyright © 2018年 藤田祥五朗. All rights reserved.
 //
 
+
+//check!変数「alert」をどこかでtrueにしよう！
+
+
 import SpriteKit
 import GameplayKit
 import CoreMotion
+
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var gameVC: GameViewController!
     
-    var Alert: Bool = true
     
     let motionManager = CMMotionManager()
     var accelaration: CGFloat = 0.0
@@ -45,6 +49,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var scoreLabel: SKLabelNode!
     
     override func didMove(to view: SKView) {
+        // 背景色を設定
+        backgroundColor = UIColor(red: 0.85, green: 0.75, blue: 0.90, alpha: 1)
+        
         physicsWorld.gravity = CGVector(dx: 0, dy: 0)
         physicsWorld.contactDelegate = self
         
@@ -188,11 +195,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let bestScore = UserDefaults.standard.integer(forKey: "bestScore")
         if score > bestScore {
             UserDefaults.standard.set(score, forKey: "bestScore")
+            
         }
     
-//        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false) { _ in
-//            self.gameVC.dismiss(animated: true, completion: nil)
-//        }
+        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false) { _ in
+            self.gameVC.dismiss(animated: true, completion: nil)
+            
+        }
     }
     
 }
